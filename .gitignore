@@ -3,9 +3,13 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-.class
+# Compiled class file
+*.class
 
-.mvn
+# Log file
+*.log
+
+*.mvn
 mvnw
 mvnw.cmd
 
