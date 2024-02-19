@@ -1,3 +1,5 @@
+package com.avishek.dsa.linkedList;
+
 // Define Node class 
 class Node{
 
@@ -29,9 +31,9 @@ public class SingleLinkedListImplementation{
 		Node currNode = head;
 
 		for(int i=1;i<arr.length;i++){
-			Node tempNode = new Node(arr[i]);
-			currNode.next = tempNode;
-			currNode = tempNode;
+			Node newNode = new Node(arr[i]);
+			currNode.next = newNode;
+			currNode = newNode;
 		}
 	}
 

@@ -1,3 +1,5 @@
+package com.avishek.dsa.array;
+
 public class DynamicArray{
 
 	static int n;
